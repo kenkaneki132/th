@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/kenkaneki132-Treasure-hunt/static/css/main.347c1a2e.css",
+    "main.js": "/kenkaneki132-Treasure-hunt/static/js/main.c7850396.js",
+    "static/js/787.ff765718.chunk.js": "/kenkaneki132-Treasure-hunt/static/js/787.ff765718.chunk.js",
+    "static/media/chip5.png": "/kenkaneki132-Treasure-hunt/static/media/chip5.4f20bfbfd35e7a540ffd.png",
+    "static/media/chip4.png": "/kenkaneki132-Treasure-hunt/static/media/chip4.ae3e71cea6d1c6311946.png",
+    "static/media/chip2.png": "/kenkaneki132-Treasure-hunt/static/media/chip2.2a0e296902d90d35b946.png",
+    "static/media/chip3.png": "/kenkaneki132-Treasure-hunt/static/media/chip3.5fc2d8f8dc7e32b44bf6.png",
+    "static/media/chip1.png": "/kenkaneki132-Treasure-hunt/static/media/chip1.6dee39ca871cca7c600d.png",
+    "index.html": "/kenkaneki132-Treasure-hunt/index.html",
+    "main.347c1a2e.css.map": "/kenkaneki132-Treasure-hunt/static/css/main.347c1a2e.css.map",
+    "main.c7850396.js.map": "/kenkaneki132-Treasure-hunt/static/js/main.c7850396.js.map",
+    "787.ff765718.chunk.js.map": "/kenkaneki132-Treasure-hunt/static/js/787.ff765718.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.347c1a2e.css",
+    "static/js/main.c7850396.js"
+  ]
+}

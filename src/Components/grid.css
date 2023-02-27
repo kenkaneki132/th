@@ -187,10 +187,10 @@ button:hover {
     margin-top: 1rem;
     background-color: rgba(255, 123, 0, 0.76);
   }
-  button:hover {
+  /* button:hover {
     background-color: red;
     cursor: pointer;
-  }
+  } */
   .Grid {
     display: grid;
     grid-template-columns: repeat(6, 3.9rem);
@@ -206,10 +206,10 @@ button:hover {
     align-items: center;
     border: groove lightsalmon;
   }
-  .Griditem:hover {
+  /* .Griditem:hover {
     background-color: rgb(229, 255, 205);
     cursor: pointer;
-  }
+  } */
   .bets {
     display: flex;
     align-items: center;
@@ -225,10 +225,10 @@ button:hover {
     display: flex;
     justify-content: space-around;
   }
-  .chip:hover {
+  /* .chip:hover {
     cursor: pointer;
     scale: 1.1;
-  }
+  } */
   .betAmount {
     border: solid;
     border-radius: 5rem;

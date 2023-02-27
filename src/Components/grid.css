@@ -274,10 +274,10 @@ button:hover {
     border: groove lightsalmon;
     background-color: blue;
   }
-  .selectedGriditem:hover {
+  /* .selectedGriditem:hover {
     background-color: lightblue;
     cursor: pointer;
-  }
+  } */
   .selectedtreasureitem {
     display: flex;
     justify-content: center;

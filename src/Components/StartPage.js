@@ -5,7 +5,7 @@ import "./startPage.css";
 function StartPage() {
   return (
     <body className="startpage">
-      <Link to="/th/Game" className="startpagelink">
+      <Link to="/Game" className="startpagelink">
         Play Game
       </Link>
     </body>

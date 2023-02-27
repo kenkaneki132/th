@@ -24,7 +24,7 @@ function Game() {
   const [temparray, settemparray] = useState([]);
   const [tempchiparray, settempchiparray] = useState([1]);
   const [lastchipvalue, setlastchipvalue] = useState(0);
-
+  //complete screen
   return (
     <div className="Game">
       <div className="Gameinfo">

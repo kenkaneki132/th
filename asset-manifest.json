@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/th/static/css/main.d1a63b4a.css",
-    "main.js": "/th/static/js/main.cc12f03d.js",
-    "static/js/787.ff765718.chunk.js": "/th/static/js/787.ff765718.chunk.js",
-    "static/media/chip5.png": "/th/static/media/chip5.4f20bfbfd35e7a540ffd.png",
-    "static/media/chip4.png": "/th/static/media/chip4.ae3e71cea6d1c6311946.png",
-    "static/media/chip2.png": "/th/static/media/chip2.2a0e296902d90d35b946.png",
-    "static/media/chip3.png": "/th/static/media/chip3.5fc2d8f8dc7e32b44bf6.png",
-    "static/media/chip1.png": "/th/static/media/chip1.6dee39ca871cca7c600d.png",
-    "index.html": "/th/index.html",
-    "main.d1a63b4a.css.map": "/th/static/css/main.d1a63b4a.css.map",
-    "main.cc12f03d.js.map": "/th/static/js/main.cc12f03d.js.map",
-    "787.ff765718.chunk.js.map": "/th/static/js/787.ff765718.chunk.js.map"
+    "main.css": "/treasure-hunt/static/css/main.d1a63b4a.css",
+    "main.js": "/treasure-hunt/static/js/main.e3f13d89.js",
+    "static/js/787.ff765718.chunk.js": "/treasure-hunt/static/js/787.ff765718.chunk.js",
+    "static/media/chip5.png": "/treasure-hunt/static/media/chip5.4f20bfbfd35e7a540ffd.png",
+    "static/media/chip4.png": "/treasure-hunt/static/media/chip4.ae3e71cea6d1c6311946.png",
+    "static/media/chip2.png": "/treasure-hunt/static/media/chip2.2a0e296902d90d35b946.png",
+    "static/media/chip3.png": "/treasure-hunt/static/media/chip3.5fc2d8f8dc7e32b44bf6.png",
+    "static/media/chip1.png": "/treasure-hunt/static/media/chip1.6dee39ca871cca7c600d.png",
+    "index.html": "/treasure-hunt/index.html",
+    "main.d1a63b4a.css.map": "/treasure-hunt/static/css/main.d1a63b4a.css.map",
+    "main.e3f13d89.js.map": "/treasure-hunt/static/js/main.e3f13d89.js.map",
+    "787.ff765718.chunk.js.map": "/treasure-hunt/static/js/787.ff765718.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d1a63b4a.css",
-    "static/js/main.cc12f03d.js"
+    "static/js/main.e3f13d89.js"
   ]
 }

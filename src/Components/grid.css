@@ -206,10 +206,10 @@ button:hover {
     align-items: center;
     border: groove lightsalmon;
   }
-  /* .Griditem:hover {
-    background-color: rgb(229, 255, 205);
+  .Griditem:hover {
+    background-color: rgba(229, 255, 205, 0.541);
     cursor: pointer;
-  } */
+  }
   .bets {
     display: flex;
     align-items: center;
@@ -225,10 +225,10 @@ button:hover {
     display: flex;
     justify-content: space-around;
   }
-  /* .chip:hover {
+  .chip:hover {
     cursor: pointer;
     scale: 1.1;
-  } */
+  }
   .betAmount {
     border: solid;
     border-radius: 5rem;
@@ -274,10 +274,10 @@ button:hover {
     border: groove lightsalmon;
     background-color: blue;
   }
-  /* .selectedGriditem:hover {
-    background-color: lightblue;
+  .selectedGriditem:hover {
+    background-color: blue;
     cursor: pointer;
-  } */
+  }
   .selectedtreasureitem {
     display: flex;
     justify-content: center;

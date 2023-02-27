@@ -1,0 +1,335 @@
+.Game {
+  background-color: orange;
+  height: 61.2rem;
+}
+.Gameinfo {
+  display: flex;
+}
+.Playbuttons {
+  display: flex;
+  flex-direction: column;
+  /* border: solid; */
+  align-items: center;
+  width: 20%;
+  justify-content: center;
+}
+button {
+  padding: 1rem 2rem;
+  border-radius: 3.5rem;
+  margin-top: 1rem;
+  background-color: rgba(255, 123, 0, 0.76);
+}
+button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.Grid {
+  display: grid;
+  grid-template-columns: repeat(6, 10rem);
+  grid-template-rows: repeat(8, 6rem);
+  width: fit-content;
+  /* border: solid saddlebrown; */
+  background-color: rgba(229, 255, 205, 0.541);
+}
+.Griditem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: groove lightsalmon;
+}
+.Griditem:hover {
+  background-color: rgb(229, 255, 205);
+  cursor: pointer;
+}
+.bets {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.chip {
+  width: 15%;
+  padding-right: 1rem;
+}
+.chips {
+  display: flex;
+  justify-content: space-around;
+}
+.chip:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+.betAmount {
+  border: solid;
+  padding: 2rem;
+  border-radius: 5rem;
+  background-color: burlywood;
+  width: 30%;
+}
+.Gameresults {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-around;
+}
+.Gameresults > div {
+  height: 3rem;
+  border: solid;
+  display: flex;
+  align-items: center;
+  width: 10%;
+  padding: 1rem;
+  border-radius: 5rem;
+  background-color: burlywood;
+}
+.Countdown {
+  border: solid;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-self: center; */
+  margin: 1rem auto;
+  border-radius: 5rem;
+  /* padding-left: 0.5rem; */
+  background-color: burlywood;
+  width: 15%;
+  position: relative;
+  height: 1.25rem;
+  /* float: center; */
+  /* z-index: -1; */
+}
+.selectedGriditem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: groove lightsalmon;
+  background-color: blue;
+}
+.selectedGriditem:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+.selectedtreasureitem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: groove lightsalmon;
+  background-color: green;
+}
+.treasureitem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: groove lightsalmon;
+  background-color: darkorange;
+}
+.chipselected {
+  width: 15%;
+  padding-right: 1rem;
+  scale: 1.3;
+}
+.chipselected:hover {
+  cursor: pointer;
+  scale: 1.3;
+}
+.Progressbar {
+  border-radius: 5rem;
+  background-color: green;
+  width: 100%;
+  height: 100%;
+  animation: Width 14s linear forwards 1s;
+
+  /* z-index: 1; */
+}
+.Progressbarcolor {
+  width: 100%;
+  height: 100%;
+}
+.Progressbarendcolor {
+  background-color: red;
+  width: 100%;
+  height: 100%;
+}
+@keyframes Width {
+  0% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+.spantime {
+  position: absolute;
+  top: 5%;
+  right: 50%;
+}
+
+@media screen and (max-width: 920px) {
+  .Game {
+    background-color: orange;
+    width: fit-content;
+    height: 700px;
+  }
+  .Gameinfo {
+    display: flex;
+    flex-direction: column;
+  }
+  .Playbuttons {
+    display: flex;
+    flex-direction: row;
+    /* border: solid; */
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+  }
+  button {
+    padding: 1rem 2rem;
+    border-radius: 3.5rem;
+    margin-top: 1rem;
+    background-color: rgba(255, 123, 0, 0.76);
+  }
+  button:hover {
+    background-color: red;
+    cursor: pointer;
+  }
+  .Grid {
+    display: grid;
+    grid-template-columns: repeat(6, 3.9rem);
+    grid-template-rows: repeat(8, 2.5rem);
+    width: fit-content;
+    /* border: solid saddlebrown; */
+    background-color: rgba(229, 255, 205, 0.541);
+    margin: 1rem 0;
+  }
+  .Griditem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: groove lightsalmon;
+  }
+  .Griditem:hover {
+    background-color: rgb(229, 255, 205);
+    cursor: pointer;
+  }
+  .bets {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .chip {
+    width: 15%;
+    padding-right: 1rem;
+  }
+  .chips {
+    display: flex;
+    justify-content: space-around;
+  }
+  .chip:hover {
+    cursor: pointer;
+    scale: 1.1;
+  }
+  .betAmount {
+    border: solid;
+    border-radius: 5rem;
+    background-color: burlywood;
+    margin-top: 0.5rem;
+    padding: 0 0;
+    width: 50%;
+  }
+  .Gameresults {
+    display: flex;
+    margin-top: 0rem;
+    justify-content: space-around;
+  }
+  .Gameresults > div {
+    height: 0rem;
+    border: solid;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    padding: 1rem;
+    border-radius: 5rem;
+    background-color: burlywood;
+  }
+  .Countdown {
+    border: solid;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-self: center; */
+    margin: 0.5rem auto;
+    border-radius: 5rem;
+    /* padding-left: 0.5rem; */
+    background-color: burlywood;
+    width: 65%;
+    position: relative;
+    height: 1.25rem;
+    /* float: center; */
+    /* z-index: -1; */
+  }
+  .selectedGriditem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: groove lightsalmon;
+    background-color: blue;
+  }
+  .selectedGriditem:hover {
+    background-color: lightblue;
+    cursor: pointer;
+  }
+  .selectedtreasureitem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: groove lightsalmon;
+    background-color: green;
+  }
+  .treasureitem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: groove lightsalmon;
+    background-color: darkorange;
+  }
+  .chipselected {
+    width: 15%;
+    padding-right: 1rem;
+    scale: 1.3;
+  }
+  .chipselected:hover {
+    cursor: pointer;
+    scale: 1.3;
+  }
+  .Progressbar {
+    border-radius: 5rem;
+    background-color: green;
+    width: 100%;
+    height: 100%;
+    animation: Width 14s linear forwards 1s;
+
+    /* z-index: 1; */
+  }
+  .Progressbarcolor {
+    width: 100%;
+    height: 100%;
+  }
+  .Progressbarendcolor {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+  }
+  @keyframes Width {
+    0% {
+      width: 100%;
+    }
+    100% {
+      width: 0%;
+    }
+  }
+  .spantime {
+    position: absolute;
+    top: 5%;
+    right: 50%;
+  }
+}

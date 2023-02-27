@@ -1,0 +1,25 @@
+.startpage {
+  background-color: orange;
+  position: fixed;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.startpagelink {
+  border: solid saddlebrown;
+  padding: 2rem;
+  border-radius: 3rem;
+  text-decoration: none;
+  color: blue;
+  background-color: rgba(255, 137, 122, 0.822);
+}
+.startpagelink:hover {
+  background-color: red;
+}

@@ -167,7 +167,7 @@ button:hover {
   .Game {
     background-color: orange;
     width: fit-content;
-    height: 700px;
+    height: 900px;
   }
   .Gameinfo {
     display: flex;
@@ -198,7 +198,7 @@ button:hover {
     width: fit-content;
     /* border: solid saddlebrown; */
     background-color: rgba(229, 255, 205, 0.541);
-    margin: 1rem 0;
+    margin: 2em 0;
   }
   .Griditem {
     display: flex;
@@ -233,7 +233,7 @@ button:hover {
     border: solid;
     border-radius: 5rem;
     background-color: burlywood;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     padding: 0 0;
     width: 50%;
   }
@@ -257,7 +257,7 @@ button:hover {
     /* display: flex; */
     /* justify-content: center; */
     /* align-self: center; */
-    margin: 0.5rem auto;
+    margin: 1rem auto;
     border-radius: 5rem;
     /* padding-left: 0.5rem; */
     background-color: burlywood;

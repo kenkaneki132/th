@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/treasure-hunt/static/css/main.89cd86a9.css",
+    "main.css": "/treasure-hunt/static/css/main.8d405ab9.css",
     "main.js": "/treasure-hunt/static/js/main.e3f13d89.js",
     "static/js/787.ff765718.chunk.js": "/treasure-hunt/static/js/787.ff765718.chunk.js",
     "static/media/chip5.png": "/treasure-hunt/static/media/chip5.4f20bfbfd35e7a540ffd.png",
@@ -9,12 +9,12 @@
     "static/media/chip3.png": "/treasure-hunt/static/media/chip3.5fc2d8f8dc7e32b44bf6.png",
     "static/media/chip1.png": "/treasure-hunt/static/media/chip1.6dee39ca871cca7c600d.png",
     "index.html": "/treasure-hunt/index.html",
-    "main.89cd86a9.css.map": "/treasure-hunt/static/css/main.89cd86a9.css.map",
+    "main.8d405ab9.css.map": "/treasure-hunt/static/css/main.8d405ab9.css.map",
     "main.e3f13d89.js.map": "/treasure-hunt/static/js/main.e3f13d89.js.map",
     "787.ff765718.chunk.js.map": "/treasure-hunt/static/js/787.ff765718.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89cd86a9.css",
+    "static/css/main.8d405ab9.css",
     "static/js/main.e3f13d89.js"
   ]
 }
